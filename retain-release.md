@@ -15,6 +15,17 @@ Warning: this generates a *lot* of data quite quickly.
         ustack();
     }
     
+    pid$target:CoreFoundation:CFRetain:entry {
+        printf("retain %x", arg0);
+        ustack();
+    }
+
+
+    pid$target:CoreFoundation:CFRelease:entry {
+        printf("release %x", arg0);
+        ustack();
+    }
+
 
 invoke with:
 
