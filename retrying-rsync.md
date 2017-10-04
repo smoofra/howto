@@ -1,4 +1,3 @@
-
 How to auto-restart rsync when it's not making progress
 ==================
 

@@ -1,4 +1,3 @@
-
 How to copy only matching files with rsync but recurse into all directories
 ===========================================================================
 

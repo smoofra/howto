@@ -1,4 +1,3 @@
-
 How to trap retain and release with dtrace
 =======================================
 
