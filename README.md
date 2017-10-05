@@ -1,3 +1,4 @@
+* [How to install an ipython kernel spec](install-ipython-kernel-spec.md)
 * [How to download a file with curl, and preserve the filename](curl-filename.md)
 * [How to auto-restart rsync when it's not making progress](retrying-rsync.md)
 * [How to use dwarfdump to read structure layouts by hand](dwarfdump-struct.md)
