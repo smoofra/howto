@@ -1,3 +1,4 @@
+* [How to check an IPython notebook into git, suppressing the output.](ipython-git-suppress-output.md)
 * [How to install an ipython kernel spec](install-ipython-kernel-spec.md)
 * [How to download a file with curl, and preserve the filename](curl-filename.md)
 * [How to auto-restart rsync when it's not making progress](retrying-rsync.md)
