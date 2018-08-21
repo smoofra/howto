@@ -9,6 +9,7 @@
 * [How to trap retain and release with dtrace](retain-release.md)
 * [How do you make a `FILE *` with callbacks?](make-a-FILE-pointer-with-callbacks.md)
 * [How to copy only matching files with rsync but recurse into all directories](selective-rsync.md)
+* [How to just print some crap in the python C API](just-print-some-crap-in-python-c.md)
 
 ### LLDB
 * [How to look up a global address to find what it is](lldb-cheat-sheet.md#imaloo)
