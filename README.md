@@ -14,3 +14,5 @@
 ### LLDB
 * [How to look up a global address to find what it is](lldb-cheat-sheet.md#imaloo)
 * [How to tell LLDB where your source code is](lldb-cheat-sheet.md#source)
+* [Find out what's in registers at a particular code address](lldb-cheat-sheet.md#registers-at-pc)
+* [Select what version of python LLDB will use](lldb-cheat-sheet.md#python-version)
