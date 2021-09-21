@@ -37,6 +37,7 @@ LLDB cheat sheet
 
 Note: You can also use `source list -a` to find the full paths for the source at a particular address.
 
+<a name="list-all-source"></a>
 ### List all the source files LLDB knows about
 
     (lldb) script print(*[unit.file.fullpath for module in lldb.target.modules for unit in module.compile_units], sep="\n")
