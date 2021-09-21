@@ -8,6 +8,7 @@
 * [How do you make a `FILE *` with callbacks?](make-a-FILE-pointer-with-callbacks.md)
 * [How to trap retain and release with dtrace](retain-release.md)
 * [How to auto-restart rsync when it's not making progress](retrying-rsync.md)
+* [How to use dtrace to sample variables from a userspace program](sample-user-variables.md)
 * [How to copy only matching files with rsync but recurse into all directories](selective-rsync.md)
 
 ### LLDB cheat sheet
@@ -16,3 +17,4 @@
 * [List all the source files LLDB knows about](lldb-cheat-sheet.md#list-all-source)
 * [Find out what's in registers at a particular code address](lldb-cheat-sheet.md#registers-at-pc)
 * [Select what version of python LLDB will use (Mac OS)](lldb-cheat-sheet.md#python-version)
+
