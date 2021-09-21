@@ -35,6 +35,8 @@ LLDB cheat sheet
        9910	
 
 
+Note: You can also use `source list -a` to find the full paths for the source at a particular address.
+
 <a name="registers-at-pc"></a>
 ### Find out what's in registers at a particular code address
 
