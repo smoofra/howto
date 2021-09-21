@@ -37,6 +37,15 @@ LLDB cheat sheet
 
 Note: You can also use `source list -a` to find the full paths for the source at a particular address.
 
+### List all the source files LLDB knows about
+
+    (lldb) script print(*[unit.file.fullpath for module in lldb.target.modules for unit in module.compile_units], sep="\n")
+
+or just for the main executable:
+
+    (lldb) script print(*[unit.file.fullpath for unit in lldb.target.modules[0].compile_units], sep="\n")
+
+
 <a name="registers-at-pc"></a>
 ### Find out what's in registers at a particular code address
 
