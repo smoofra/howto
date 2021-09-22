@@ -5,7 +5,7 @@ For example, lets say we have a C function like this, running on arm64,
 and we'd like to know what `*(vars->outcount)` is at the end.
 
 
-```
+```c
 struct vars { 
     foo *a, *b;
     uint32_t *outcount;
@@ -13,7 +13,7 @@ struct vars {
 
 void some_function(struct vars *vars) 
 { 
-    do_some_stuff()
+    do_some_stuff();
 }
 
 ```
