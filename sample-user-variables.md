@@ -20,6 +20,7 @@ void some_function(struct vars *vars)
 
 Then we could use a dtrace script like this to sample it:
 
+#### **`foo.d`**
 ```
 pid$target:SomeProgram:some_function:entry { 
 	self->varsp = uregs[R_X1];
