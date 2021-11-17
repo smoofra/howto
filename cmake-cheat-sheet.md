@@ -6,10 +6,13 @@ CMAKE cheat sheet
 ### How to do the equivalent of `DSTROOT=... make install` with cmake/ninja
 
 The goal here is to pass an installation prefix only to the install step.
-It's not good enough to run cmake with `-DCMAKE_INSTALL_PREFIX=$prefix`,
-that would reconfigure the project with a prefix, possibly influencing
-where the project thinks it will be installed at runtime, ie this is like
-`./configure --prefix=$prefix` in an autoconf based project.
+It's not good enough to run cmake like this:
+```
+cmake -DCMAKE_INSTALL_PREFIX=$prefix ...
+```
+That would reconfigure the project with a prefix, possibly influencing
+where the project thinks it will be installed at runtime, ie like 
+what `./configure --prefix=$prefix` does in an autoconf based project.
 
 However, If you look at the ninja rule for install, all it does
 is call a cmake script.   So instead of saying `ninja install`, do this:
