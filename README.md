@@ -11,6 +11,9 @@
 * [How to use dtrace to sample variables from a userspace program](sample-user-variables.md)
 * [How to copy only matching files with rsync but recurse into all directories](selective-rsync.md)
 
+### CMAKE cheat sheet
+* [How to do the equivalent of `DSTROOT=... make install` with cmake/ninja](cmake-cheat-sheet.md#DSTROOT)
+
 ### LLDB cheat sheet
 * [Look up a global address to find what it is](lldb-cheat-sheet.md#imaloo)
 * [Tell LLDB where your source code is](lldb-cheat-sheet.md#source)

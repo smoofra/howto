@@ -4,7 +4,7 @@ import re
 import glob
 
 
-multi_files = {'lldb-cheat-sheet.md'}
+multi_files = {'lldb-cheat-sheet.md', 'cmake-cheat-sheet.md'}
 
 
 with open("README.md", "w") as out:
