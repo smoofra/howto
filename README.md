@@ -2,6 +2,7 @@
 ### general
 * [How to download a file with curl, and preserve the filename](curl-filename.md)
 * [How to use dwarfdump to read structure layouts by hand](dwarfdump-struct.md)
+* [How to download job artifacts from gitlab using curl](gitlab.md)
 * [How to install an ipython kernel spec](install-ipython-kernel-spec.md)
 * [How to check an IPython notebook into git, suppressing the output.](ipython-git-suppress-output.md)
 * [How to just print some crap in the python C API](just-print-some-crap-in-python-c.md)
